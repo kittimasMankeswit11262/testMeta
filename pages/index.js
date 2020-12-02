@@ -29,7 +29,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div>
-          version 1.01.13
+          version 1.01.14
           <div style={IconStyleContianer}>
             <FacebookShareButton
               url={url}
