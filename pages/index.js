@@ -19,9 +19,9 @@ export default function Home() {
         <meta property="og:title" content={"P1 International Buffet at Furama Silom Hotel"} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={"https://test-meta-demo.herokuapp.com/"} />
-        <meta property="og:image" content={"https://d31ivuq27aprwe.cloudfront.net/media/campaign-details/73/730020201002T15445852065.jpg"} />
+        <meta property="og:image" content={"https://d31ivuq27aprwe.cloudfront.net/media/campaign-details/70/700020201001T15480615903.jpg"} />
 
-        <meta property="og:image" content={"https://d31ivuq27aprwe.cloudfront.net/media/campaign-details/73/730020201002T15445852065.jpg"} />
+        <meta property="og:image" content={"https://d31ivuq27aprwe.cloudfront.net/media/campaign-details/70/700020201001T15480615903.jpg"} />
         <meta property="og:description" content={"P1 International Buffet at Furama Silom Hotel"} />
 
         <meta name="robots" content="noindex, nofollow" />
