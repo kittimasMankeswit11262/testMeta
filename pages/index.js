@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React ,{useEffect , useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from '../styles/Home.module.css'
 import { FacebookShareButton, TwitterShareButton, LineShareButton } from 'react-share'
 const IconStyleContianer = { padding: 0 }
@@ -7,18 +7,29 @@ const IconStyle = {}
 export default function Home() {
   const [url, setUrl] = useState("");
   useEffect(() => {
-     setUrl(window.location.href) 
+    setUrl(window.location.href)
   }, [url]);
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Create Next App Naja</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content={"P1 Description International Buffet at Furama Silom Hotel"} />
+        <meta name="keywords" content={"test"} />
+        <meta property="og:title" content={"P1 International Buffet at Furama Silom Hotel"} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={"https://test-meta-demo.herokuapp.com/"} />
+        <meta property="og:image" content={"https://d31ivuq27aprwe.cloudfront.net/media/campaign-details/73/730020201002T15445852065.jpg"} />
+
+        <meta property="og:image" content={"https://d31ivuq27aprwe.cloudfront.net/media/campaign-details/73/730020201002T15445852065.jpg"} />
+        <meta property="og:description" content={"P1 International Buffet at Furama Silom Hotel"} />
+
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
 
       <main className={styles.main}>
         <div>
-          version 1.01.12
+          version 1.01.13
           <div style={IconStyleContianer}>
             <FacebookShareButton
               url={url}
