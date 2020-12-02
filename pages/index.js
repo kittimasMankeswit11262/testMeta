@@ -20,7 +20,7 @@ export default function Home() {
         <div>
           <div style={IconStyleContianer}>
             <FacebookShareButton
-              url={"http://localhost:3000/"}
+              url={url}
               style={IconStyle}
             >
               <img src="/static/images/share/icon-facebook.svg" />
