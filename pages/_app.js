@@ -11,9 +11,9 @@ function MyApp({ Component, pageProps }) {
 				<meta property="og:title" content={"International Buffet at Furama Silom Hotel"} />
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content={"https://test-meta-demo.herokuapp.com/"} />
-				<meta property="og:image" content={"https://d31ivuq27aprwe.cloudfront.net/media/campaign-details/1/10020200430T18331657332.jpg"} />
+				<meta property="og:image" content={"https://firebasestorage.googleapis.com/v0/b/lancher-2ab37.appspot.com/o/10020200430T18331657332.jpg?alt=media&token=f70cfd2c-b0cc-4191-b48c-8b44e0d41faf"} />
 
-				<meta property="og:image" content={"https://d31ivuq27aprwe.cloudfront.net/media/campaign-details/1/10020200430T18331657332.jpg"} />
+				<meta property="og:image" content={"https://firebasestorage.googleapis.com/v0/b/lancher-2ab37.appspot.com/o/10020200430T18331657332.jpg?alt=media&token=f70cfd2c-b0cc-4191-b48c-8b44e0d41faf"} />
 				<meta property="og:description" content={"International Buffet at Furama Silom Hotel"} />
 
 				<meta name="robots" content="noindex, nofollow" />
