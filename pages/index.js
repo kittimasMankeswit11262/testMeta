@@ -9,6 +9,7 @@ export default function Home() {
   useEffect(() => {
     setUrl(window.location.href)
   }, [url]);
+  console.log(url)
   return (
     <div className={styles.container}>
       <Head>
